@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    >
+
+
+
+
+   <TextView
+       android:id="@+id/tvDisplay"
+       android:layout_width="match_parent"
+       android:layout_height="180sp"
+       android:textSize="100sp"
+       android:textColor="@color/white"
+       android:text="0"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:layout_marginBottom="50dp"
+       android:background="@drawable/circle_transparent"
+       >
+
+   </TextView>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/addbtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/addbtn"
+            android:layout_marginRight="50dp"
+            >
+
+        </ImageView>
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/subbtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/subbtn"
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/resetbtn"
+        android:layout_width="243dp"
+        android:layout_height="227dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/reset">
+
+    </ImageView>
+</LinearLayout>
